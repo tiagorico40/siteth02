@@ -9,31 +9,6 @@
   gtag('config', 'G-ZBEZWLP7P2');
 </script>
 
-	<script>
-		fetch('https://paineladmin.onrender.com/registrar-visita', { method: 'POST' });
-	  </script>
-
-<button onclick="fetch('https://paineladmin.onrender.com/click', { method: 'POST' })">
-	Copiar chave Pix
-  </button>
-
-  <form onsubmit="registrarDoacao(event)">
-	<input name="valor" />
-	<button type="submit">Doar</button>
-  </form>
-  <script>
-	function registrarDoacao(e) {
-	  e.preventDefault();
-	  fetch('https://paineladmin.onrender.com/doar', {
-		method: 'POST',
-		headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-		body: 'valor=' + e.target.valor.value
-	  });
-	}
-  </script>
-	
-	
-	
 	<meta charset="UTF-8">
 			<title>Patinha  site</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
