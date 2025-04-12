@@ -8,6 +8,32 @@
 
   gtag('config', 'G-ZBEZWLP7P2');
 </script>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel de Métricas</title>
+  <style>
+    /* Seu CSS aqui */
+  </style>
+</head>
+<body>
+  <!-- Seu conteúdo HTML aqui -->
+  <button id="copiar-chave-pix">Copiar Chave Pix</button>
+
+  <!-- Adicionar o código de rastreamento de cliques -->
+  <script>
+    document.getElementById('copiar-chave-pix').addEventListener('click', function() {
+      gtag('event', 'clique', {
+        'event_category': 'Pix',
+        'event_label': 'Copiar Chave Pix',
+      });
+    });
+  </script>
+</body>
+</html>
+
 	<meta charset="UTF-8">
 			<title>Patinha  site</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
