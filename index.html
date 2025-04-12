@@ -530,39 +530,6 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 </head>
 <body>
   <div class="dashboard">
-    <h1>Painel de Métricas</h1>
-    <!-- Botão para copiar a chave Pix -->
-    <button id="copiar-chave-pix">Copiar Chave Pix</button>
-  </div>
-
-  <!-- Código do Google Analytics 4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBEZWLP7P2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    // Configuração do Google Analytics 4 (GA4)
-    gtag('config', 'G-ZBEZWLP7P2');
-  </script>
-
-  <!-- Código de rastreamento de cliques -->
-  <script>
-    // Evento de clique no botão "Copiar Chave Pix"
-    document.getElementById('copiar-chave-pix').addEventListener('click', function() {
-      // Envia o evento para o Google Analytics 4
-      gtag('event', 'clique', {
-        'event_category': 'Pix',    // Categoria do evento
-        'event_label': 'Copiar Chave Pix',  // Rótulo do evento
-      });
-
-      // Aqui você pode adicionar o código para copiar a chave Pix, por exemplo:
-      console.log('Chave Pix copiada'); // Simulando a ação de copiar a chave
-    });
-  </script>
-</body>
-</html>
-
-
+    
 
 </body></html>
