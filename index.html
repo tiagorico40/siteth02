@@ -234,7 +234,16 @@ src="https://www.facebook.com/tr?id=1021539532798582&ev=PageView&noscript=1"
         document.execCommand("copy");
         document.body.removeChild(inputTemp);
         alert("Chave PIX copiada com sucesso! Finalize a doação no seu aplicativo do Banco.");
-    }
+		function copiarTexto() {
+  // ... seu código de copiar aqui ...
+
+  // Envia o clique para o Google Analytics 4
+  gtag('event', 'clique', {
+    event_category: 'Pix',
+    event_label: 'Copiar Chave Pix'
+  });
+}
+}
 </script>
 				</div>
 				</div>
